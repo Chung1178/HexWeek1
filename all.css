@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+/* Start */
+body {
+    font-family: "Castoro", serif;
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 160px;
+    font-size: 128px;
+    letter-spacing: 0.12em;
+}
+.header img{
+    margin: 0 auto;
+    display: block;
+}
+.header_text_right{
+    text-align: right;
+    padding-right: 14px;
+}
+.introduction{
+    background-color: #EFEFEF;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 80px;
+}
+.introduction p{
+    width:636px;
+    margin-left: auto;
+    font-size: 32px;
+}
+.exp{
+    width: 636px;
+}
+.exp_title{
+    color: #AE0000;
+    border-bottom: solid 3px #AE0000;
+    font-size: 40px;
+}
+.exp_text{
+    font-size: 24px;
+}
+.exp_text a:hover{
+    color:#AE0000;
+}
+.exp_text_year{
+    font-style: italic;
+    font-size: 20px;
+    color: #949494;
+}
+.footer{
+    background: #000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+.footer_item{
+    display: inline-block;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-160{
+    margin-bottom: 160px;
+}
+.mr-40{
+    margin-right: 40px;
+}
